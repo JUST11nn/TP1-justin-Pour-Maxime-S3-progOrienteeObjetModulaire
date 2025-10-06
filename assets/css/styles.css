@@ -1,0 +1,18 @@
+/* Variables de base */
+@import url(base/reset.css);
+@import url(base/colors.css);
+@import url(base/typography.css);
+@import url(base/spacing.css);
+@import url(base/general.css);
+
+/* Du plus général au plus spécifique */
+/* Utilisez tpujours les variables définies dans base pour rendre les composants réutilisables */
+
+/* Composants génériques */
+@import url(components/button.css);
+
+/* Éléments de mise en page réutilisables. Ex: grille, conteneurs, etc. */
+@import url(layout/grid.css);
+
+/* Exceptions spécifiques à des pages. Sert à ajouter des styles spécifiques à une page sans toucher aux composants génériques */
+@import url(pages/home.css);
